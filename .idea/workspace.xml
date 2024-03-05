@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ced5f063-0976-486d-aa35-b395b4efd5d5" name="Changes" comment="change cors api">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/iftixortalim/crmspring/controller/EducationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uz/iftixortalim/crmspring/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/iftixortalim/crmspring/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/crm-spring-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/crm-spring-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d0731f7d-b8c1-43fe-80a9-0909f9761c6f" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Z4ekjyw3zR1MplLKc5s51TjTmU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP Request.generated-requests | #10.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #12.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #13.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #8.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.crm-spring [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.crm-spring [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CrmSpringApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ak/Documents/copy/TalimTarbiya/crm-spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uz.iftixortalim.crmspring.mapper" />
+      <recent name="uz.iftixortalim.crmspring.dto" />
+      <recent name="uz.iftixortalim.crmspring.questions" />
+      <recent name="uz.iftixortalim.crmspring.model" />
+      <recent name="uz.iftixortalim.crmspring.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/uz/iftixortalim/crmspring/test/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/uz/iftixortalim/crmspring" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uz.iftixortalim.crmspring.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CrmSpringApplication">
+    <configuration name="scheme.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/scheme.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="scheme.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/scheme.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CrmSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="crm-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.iftixortalim.crmspring.CrmSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrmSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="crm-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.iftixortalim.crmspring.CrmSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.scheme.sql" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-3c5dfc45" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ced5f063-0976-486d-aa35-b395b4efd5d5" name="Changes" comment="" />
+      <created>1701685925900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701685925900</updated>
+      <workItem from="1701685927027" duration="3373000" />
+      <workItem from="1701689504030" duration="11000" />
+      <workItem from="1701693314234" duration="18000" />
+      <workItem from="1701770596248" duration="16000" />
+      <workItem from="1701856126885" duration="2519000" />
+      <workItem from="1701859344964" duration="227000" />
+      <workItem from="1701859638299" duration="1141000" />
+      <workItem from="1701869745211" duration="5458000" />
+      <workItem from="1701940068276" duration="1366000" />
+      <workItem from="1701955207949" duration="4070000" />
+      <workItem from="1701960033563" duration="469000" />
+      <workItem from="1702016753974" duration="451000" />
+      <workItem from="1702026789983" duration="1139000" />
+      <workItem from="1702029896426" duration="672000" />
+      <workItem from="1702032941249" duration="4448000" />
+      <workItem from="1702042210061" duration="412000" />
+      <workItem from="1702042638470" duration="2537000" />
+      <workItem from="1702048875731" duration="112000" />
+      <workItem from="1702049001514" duration="18000" />
+      <workItem from="1702049350999" duration="1529000" />
+      <workItem from="1702053320833" duration="41000" />
+      <workItem from="1702054041997" duration="36000" />
+      <workItem from="1702054137901" duration="5000" />
+      <workItem from="1702115613610" duration="3319000" />
+      <workItem from="1702121650809" duration="1460000" />
+      <workItem from="1702126360180" duration="1646000" />
+      <workItem from="1702138678367" duration="4010000" />
+      <workItem from="1702208257922" duration="416000" />
+      <workItem from="1702216815992" duration="2047000" />
+      <workItem from="1702225276723" duration="651000" />
+      <workItem from="1702228967998" duration="28000" />
+      <workItem from="1702233496459" duration="1442000" />
+      <workItem from="1702271584014" duration="1770000" />
+      <workItem from="1702274175171" duration="309000" />
+      <workItem from="1702274670380" duration="144000" />
+      <workItem from="1702276857141" duration="1196000" />
+      <workItem from="1702295739815" duration="2529000" />
+      <workItem from="1702356144835" duration="2095000" />
+      <workItem from="1702370638201" duration="5143000" />
+      <workItem from="1702391996992" duration="2006000" />
+      <workItem from="1702446274893" duration="1158000" />
+      <workItem from="1702457013435" duration="1541000" />
+      <workItem from="1702462848900" duration="1722000" />
+      <workItem from="1702531506672" duration="449000" />
+      <workItem from="1702551809597" duration="1829000" />
+      <workItem from="1702563063595" duration="306000" />
+      <workItem from="1702564447983" duration="81000" />
+      <workItem from="1702625332928" duration="3385000" />
+      <workItem from="1702634217979" duration="3844000" />
+      <workItem from="1702648533935" duration="477000" />
+      <workItem from="1702657499276" duration="3047000" />
+      <workItem from="1702660845051" duration="211000" />
+      <workItem from="1702661095433" duration="26000" />
+      <workItem from="1702702247835" duration="3037000" />
+      <workItem from="1702714408055" duration="1058000" />
+      <workItem from="1702721290848" duration="7254000" />
+      <workItem from="1702738932580" duration="6540000" />
+      <workItem from="1702746291594" duration="892000" />
+      <workItem from="1702811846898" duration="1569000" />
+      <workItem from="1702971622881" duration="606000" />
+      <workItem from="1702975407934" duration="1182000" />
+      <workItem from="1702987942775" duration="893000" />
+      <workItem from="1702989281276" duration="703000" />
+      <workItem from="1702994803660" duration="1355000" />
+      <workItem from="1702998751563" duration="3932000" />
+      <workItem from="1703005060884" duration="31000" />
+      <workItem from="1703005360485" duration="2572000" />
+      <workItem from="1703008322989" duration="649000" />
+      <workItem from="1703010574251" duration="1140000" />
+      <workItem from="1703050310863" duration="7000" />
+      <workItem from="1703083364007" duration="2547000" />
+      <workItem from="1703087377242" duration="395000" />
+      <workItem from="1703165702282" duration="112000" />
+      <workItem from="1703166164388" duration="445000" />
+      <workItem from="1703228321938" duration="140000" />
+      <workItem from="1703228498332" duration="1138000" />
+      <workItem from="1703232040543" duration="647000" />
+      <workItem from="1703232796487" duration="158000" />
+      <workItem from="1703234922464" duration="214000" />
+      <workItem from="1703237889914" duration="3000" />
+      <workItem from="1703237901556" duration="4000" />
+      <workItem from="1703240908485" duration="413000" />
+      <workItem from="1703242962629" duration="1558000" />
+      <workItem from="1703246129134" duration="443000" />
+      <workItem from="1703246923494" duration="367000" />
+      <workItem from="1703247399734" duration="20000" />
+      <workItem from="1703248227379" duration="82000" />
+      <workItem from="1703248559067" duration="6000" />
+      <workItem from="1703249059343" duration="489000" />
+      <workItem from="1703249935236" duration="322000" />
+      <workItem from="1703324515824" duration="5000" />
+      <workItem from="1703333034825" duration="520000" />
+      <workItem from="1703335226264" duration="615000" />
+      <workItem from="1703418818037" duration="27000" />
+      <workItem from="1703418898263" duration="1583000" />
+      <workItem from="1703421075134" duration="1527000" />
+      <workItem from="1703574287115" duration="7871000" />
+      <workItem from="1703585487406" duration="2845000" />
+      <workItem from="1703590490251" duration="985000" />
+      <workItem from="1703591505261" duration="5495000" />
+      <workItem from="1703661779136" duration="1439000" />
+      <workItem from="1703663691215" duration="1790000" />
+      <workItem from="1703667432463" duration="103000" />
+      <workItem from="1703668489998" duration="1141000" />
+      <workItem from="1703670998442" duration="251000" />
+      <workItem from="1703756669263" duration="1215000" />
+      <workItem from="1703760920626" duration="12000" />
+      <workItem from="1703767403621" duration="771000" />
+      <workItem from="1703768201493" duration="6000" />
+      <workItem from="1703773166711" duration="1209000" />
+      <workItem from="1703775972172" duration="18000" />
+      <workItem from="1703962525677" duration="94000" />
+      <workItem from="1704109994292" duration="501000" />
+      <workItem from="1704110549748" duration="22000" />
+      <workItem from="1704110680267" duration="3000" />
+      <workItem from="1704110691532" duration="5000" />
+      <workItem from="1704111161795" duration="1668000" />
+      <workItem from="1704116330431" duration="5000" />
+      <workItem from="1704116362795" duration="1239000" />
+      <workItem from="1704177071703" duration="5000" />
+      <workItem from="1704177270567" duration="677000" />
+      <workItem from="1704275148274" duration="26000" />
+      <workItem from="1704294107244" duration="1945000" />
+      <workItem from="1704376760902" duration="1432000" />
+      <workItem from="1704378397953" duration="762000" />
+      <workItem from="1704379601107" duration="1294000" />
+      <workItem from="1704464362282" duration="1532000" />
+      <workItem from="1704565783292" duration="1756000" />
+      <workItem from="1704610894871" duration="368000" />
+      <workItem from="1704611366067" duration="1017000" />
+      <workItem from="1704809156038" duration="89000" />
+      <workItem from="1704809783529" duration="626000" />
+      <workItem from="1704824163740" duration="363000" />
+      <workItem from="1704824963130" duration="135000" />
+      <workItem from="1704825279066" duration="362000" />
+      <workItem from="1704825874574" duration="42000" />
+      <workItem from="1704825922611" duration="57000" />
+      <workItem from="1704996345248" duration="1624000" />
+      <workItem from="1704998628293" duration="50000" />
+      <workItem from="1705055646156" duration="780000" />
+      <workItem from="1705057336492" duration="253000" />
+      <workItem from="1705063112333" duration="167000" />
+      <workItem from="1705065040017" duration="3234000" />
+      <workItem from="1705070737177" duration="814000" />
+      <workItem from="1705074330777" duration="187000" />
+      <workItem from="1705077651405" duration="27000" />
+      <workItem from="1705077690301" duration="106000" />
+      <workItem from="1705077820113" duration="283000" />
+      <workItem from="1705081766759" duration="292000" />
+      <workItem from="1705082288904" duration="17000" />
+      <workItem from="1705399783689" duration="1264000" />
+      <workItem from="1705426246005" duration="2623000" />
+      <workItem from="1705429748709" duration="1106000" />
+      <workItem from="1705487852251" duration="179000" />
+      <workItem from="1705488047873" duration="19000" />
+      <workItem from="1705488427760" duration="821000" />
+      <workItem from="1705579107751" duration="428000" />
+      <workItem from="1705579822613" duration="414000" />
+      <workItem from="1705751260593" duration="463000" />
+      <workItem from="1705783686802" duration="996000" />
+      <workItem from="1705786386533" duration="1894000" />
+      <workItem from="1705829320946" duration="2567000" />
+      <workItem from="1705846843293" duration="59000" />
+      <workItem from="1705849397667" duration="526000" />
+      <workItem from="1705947480707" duration="1577000" />
+      <workItem from="1705950279853" duration="925000" />
+      <workItem from="1705951444004" duration="665000" />
+      <workItem from="1706186238553" duration="501000" />
+      <workItem from="1706194572223" duration="14000" />
+      <workItem from="1706284968497" duration="5000" />
+      <workItem from="1706285632312" duration="999000" />
+      <workItem from="1706286745003" duration="1343000" />
+      <workItem from="1706288768626" duration="3356000" />
+      <workItem from="1706292784562" duration="12000" />
+      <workItem from="1706619600022" duration="63000" />
+      <workItem from="1706624752855" duration="658000" />
+      <workItem from="1706637261107" duration="20000" />
+      <workItem from="1706639345434" duration="280000" />
+      <workItem from="1706639960936" duration="905000" />
+      <workItem from="1707045952514" duration="177000" />
+      <workItem from="1707219498312" duration="694000" />
+      <workItem from="1707372945644" duration="2249000" />
+      <workItem from="1707375725319" duration="93000" />
+      <workItem from="1707375982373" duration="1981000" />
+      <workItem from="1707380541537" duration="1528000" />
+      <workItem from="1707382821870" duration="432000" />
+      <workItem from="1707395456846" duration="3620000" />
+      <workItem from="1707401001531" duration="104000" />
+      <workItem from="1707410362384" duration="5000" />
+      <workItem from="1707413966464" duration="22000" />
+      <workItem from="1707417807460" duration="56000" />
+      <workItem from="1707478276070" duration="2891000" />
+      <workItem from="1707546006882" duration="1006000" />
+      <workItem from="1707567013441" duration="669000" />
+      <workItem from="1707651577423" duration="200000" />
+      <workItem from="1707737854597" duration="6110000" />
+      <workItem from="1707748476938" duration="484000" />
+      <workItem from="1707748981554" duration="673000" />
+      <workItem from="1707750397724" duration="91000" />
+      <workItem from="1707750530668" duration="548000" />
+      <workItem from="1707752480241" duration="675000" />
+      <workItem from="1707753507216" duration="15000" />
+      <workItem from="1707833962435" duration="11000" />
+      <workItem from="1707833980762" duration="279000" />
+      <workItem from="1707837708279" duration="7000" />
+      <workItem from="1707837733609" duration="69000" />
+      <workItem from="1707897503397" duration="353000" />
+      <workItem from="1707898397606" duration="11000" />
+      <workItem from="1708090125374" duration="1362000" />
+      <workItem from="1708094604732" duration="374000" />
+      <workItem from="1708095080559" duration="1559000" />
+      <workItem from="1708101788645" duration="2000" />
+      <workItem from="1708103395972" duration="3739000" />
+      <workItem from="1708109208403" duration="23000" />
+      <workItem from="1708149912023" duration="511000" />
+      <workItem from="1708151112421" duration="1708000" />
+      <workItem from="1708280197324" duration="14000" />
+      <workItem from="1708357028859" duration="198000" />
+      <workItem from="1708360848147" duration="116000" />
+      <workItem from="1708361049611" duration="969000" />
+      <workItem from="1708362231925" duration="45000" />
+      <workItem from="1708362416763" duration="204000" />
+      <workItem from="1708442795504" duration="423000" />
+      <workItem from="1708443274513" duration="860000" />
+      <workItem from="1708523653799" duration="547000" />
+      <workItem from="1708528339509" duration="1042000" />
+      <workItem from="1708532003733" duration="584000" />
+      <workItem from="1708532627744" duration="848000" />
+      <workItem from="1708624783890" duration="877000" />
+      <workItem from="1708653375598" duration="132000" />
+      <workItem from="1708676660954" duration="1647000" />
+      <workItem from="1708756209609" duration="134000" />
+      <workItem from="1708950124716" duration="79000" />
+      <workItem from="1708950538571" duration="94000" />
+      <workItem from="1709050615555" duration="166000" />
+      <workItem from="1709051322504" duration="161000" />
+      <workItem from="1709051756236" duration="164000" />
+      <workItem from="1709115975614" duration="15000" />
+      <workItem from="1709116567248" duration="363000" />
+      <workItem from="1709136303058" duration="3335000" />
+      <workItem from="1709166690165" duration="3470000" />
+      <workItem from="1709171457825" duration="940000" />
+      <workItem from="1709172682006" duration="47000" />
+      <workItem from="1709173546342" duration="54000" />
+      <workItem from="1709177423936" duration="3192000" />
+      <workItem from="1709181494251" duration="1210000" />
+      <workItem from="1709182913731" duration="66000" />
+      <workItem from="1709183266584" duration="5000" />
+      <workItem from="1709183973241" duration="1416000" />
+      <workItem from="1709186524152" duration="636000" />
+      <workItem from="1709188714929" duration="345000" />
+      <workItem from="1709209759194" duration="19000" />
+      <workItem from="1709215970791" duration="991000" />
+      <workItem from="1709217795769" duration="607000" />
+      <workItem from="1709549603840" duration="1307000" />
+      <workItem from="1709643662239" duration="795000" />
+    </task>
+    <task id="LOCAL-00001" summary="big changes">
+      <option name="closed" value="true" />
+      <created>1702274301487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702274301487</updated>
+    </task>
+    <task id="LOCAL-00002" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1702634650604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702634650604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1702746794799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702746794799</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1702746820919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702746820919</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703246286798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703246286798</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703246959476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703246959476</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703247270875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703247270875</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703248289466</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703248289467</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703249305317</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703249305317</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703249346700</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703249346700</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703249990408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703249990408</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703668763482</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703668763483</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1703671232472</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703671232472</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finish v1">
+      <option name="closed" value="true" />
+      <created>1704110254262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704110254262</updated>
+    </task>
+    <task id="LOCAL-00015" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1704377305147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704377305147</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1704824467264</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704824467264</updated>
+    </task>
+    <task id="LOCAL-00017" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1704825054677</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704825054677</updated>
+    </task>
+    <task id="LOCAL-00018" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1704825286981</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704825286981</updated>
+    </task>
+    <task id="LOCAL-00019" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1704825931305</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704825931305</updated>
+    </task>
+    <task id="LOCAL-00020" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1705057525193</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705057525194</updated>
+    </task>
+    <task id="LOCAL-00021" summary="finish v2">
+      <option name="closed" value="true" />
+      <created>1705074491874</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1705074491874</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add quiz and payment methods">
+      <option name="closed" value="true" />
+      <created>1705579310653</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1705579310653</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add quiz and payment methods">
+      <option name="closed" value="true" />
+      <created>1707374111175</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707374111175</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add quiz and payment methods">
+      <option name="closed" value="true" />
+      <created>1707374150934</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1707374150934</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add quiz and payment methods">
+      <option name="closed" value="true" />
+      <created>1707374525971</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707374525971</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add quiz and payment methods">
+      <option name="closed" value="true" />
+      <created>1707375786333</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1707375786333</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707377894898</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707377894898</updated>
+    </task>
+    <task id="LOCAL-00028" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707377932055</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1707377932055</updated>
+    </task>
+    <task id="LOCAL-00029" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707546074877</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707546074877</updated>
+    </task>
+    <task id="LOCAL-00030" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707651619119</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707651619119</updated>
+    </task>
+    <task id="LOCAL-00031" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707651652131</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707651652131</updated>
+    </task>
+    <task id="LOCAL-00032" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707748621039</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707748621039</updated>
+    </task>
+    <task id="LOCAL-00033" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707748924391</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707748924391</updated>
+    </task>
+    <task id="LOCAL-00034" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1707750947994</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707750947994</updated>
+    </task>
+    <task id="LOCAL-00035" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1708361964389</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1708361964389</updated>
+    </task>
+    <task id="LOCAL-00036" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1708442873924</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1708442873924</updated>
+    </task>
+    <task id="LOCAL-00037" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1708443756251</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1708443756251</updated>
+    </task>
+    <task id="LOCAL-00038" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1708653479413</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1708653479413</updated>
+    </task>
+    <task id="LOCAL-00039" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1708756231845</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1708756231845</updated>
+    </task>
+    <task id="LOCAL-00040" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1708756288629</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1708756288629</updated>
+    </task>
+    <task id="LOCAL-00041" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1709172386918</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1709172386918</updated>
+    </task>
+    <task id="LOCAL-00042" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1709180614258</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1709180614258</updated>
+    </task>
+    <task id="LOCAL-00043" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1709182487156</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1709182487156</updated>
+    </task>
+    <task id="LOCAL-00044" summary="change cors api">
+      <option name="closed" value="true" />
+      <created>1709182951576</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1709182951576</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="big changes" />
+    <MESSAGE value="some changes" />
+    <MESSAGE value="finish v1" />
+    <MESSAGE value="finish v2" />
+    <MESSAGE value="add quiz and payment methods" />
+    <MESSAGE value="change cors api" />
+    <option name="LAST_COMMIT_MESSAGE" value="change cors api" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/uz/iftixortalim/crmspring/service/impl/AttendanceServiceImpl.java</url>
+          <line>35</line>
+          <properties class="uz.iftixortalim.crmspring.service.impl.AttendanceServiceImpl" method="readByGroupId">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="uz.iftixortalim.crmspring.model.Student" memberName="id" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
